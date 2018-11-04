@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Our Grocery List App
+
+This is a sample application built for users to log in and track items to purchase in a grocery store.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - ruby 2.5.1p57
 
-* System dependencies
+* Gem dependencies - gem 'bootstrap', '~> 4.0',  gem 'bcrypt', gem 'pg'
 
-* Configuration
+* Configuration - currently test hosted on Heroku at
+  https://glacial-cliffs-19439.herokuapp.com/
 
-* Database creation
+* Database creation - remember to migrate your db in order for heroku to catch the data.
 
-* Database initialization
+* How to run the test suite - Install the above dependancies and deploy locally or on Heroku
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Built with a simple crud and bcrypt user authentication with email and username/pass.
