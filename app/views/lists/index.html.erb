@@ -20,7 +20,7 @@
             </center>
           </td>
         <td><%= link_to 'Edit', edit_list_path(list) %></td>
-        <td><%= link_to 'Delete', list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', list, class: 'btn btn-outline-danger bt-sm', method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
 
        <% else %>
@@ -36,7 +36,7 @@
            </center>
          </td>
        <td><%= link_to 'Edit', edit_list_path(list) %></td>
-       <td><%= link_to 'Delete', list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+       <td><%= link_to 'Delete', list, class: 'btn btn-outline-danger bt-sm', method: :delete, data: { confirm: 'Are you sure?' } %></td>
      </tr>
      <% end %>
     <% end %>
