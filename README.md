@@ -4,7 +4,7 @@ Our Grocery List App
 
 This is a sample application built for users to log in and track items to purchase in a grocery store.
 
-Things you may want to cover:
+Requirements:
 
 * Ruby version - ruby 2.5.1p57
 
