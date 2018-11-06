@@ -4,14 +4,14 @@
     <title>Grocerylist</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+  
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body id="body">
     <% if current_user %>
-            
+
              <li class="pull-right"><%= link_to "#{current_user.name} -Sign Out", session_path(current_user), method: :delete %></li>
            <% else %>
              <li class="pull-right"><%= link_to "Sign In", new_session_path %></li>
