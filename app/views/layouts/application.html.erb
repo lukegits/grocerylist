@@ -9,12 +9,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body id="body">
     <% if current_user %>
+            
              <li class="pull-right"><%= link_to "#{current_user.name} -Sign Out", session_path(current_user), method: :delete %></li>
            <% else %>
              <li class="pull-right"><%= link_to "Sign In", new_session_path %></li>
-            
+
+
            <% end %>
     <%= yield %>
   </body>
