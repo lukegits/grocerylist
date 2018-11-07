@@ -1,6 +1,6 @@
 
  RSpec.describe SessionsController, type: :controller do
-   let(:my_user) { User.create!(name: "Blochead", email: "blochead@bloc.io", password: "password") }
+   let(:my_user) { User.create!(name: "Groceryman", email: "grocery@bloc.io", password: "password") }
 
    describe "GET new" do
      it "returns http success" do
